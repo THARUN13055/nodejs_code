@@ -5,9 +5,9 @@ metadata:
 spec:
   selector:
     app: nodejstest
-  type: nodePort
+  type: LoadBalancer
   ports:
-  - port: 80
+  - port: 8090
     protocal: TCP
     targetPort: 8090
     
