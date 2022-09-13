@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nodetest
+  labels:
+    app: nodejstest
+spec:
+  containers:
+    - name: mynodetestcontainer
+      image: tharun13055/nodetest:v1
+      ports:
+      - containerPort: 80
+        

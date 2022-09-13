@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt update
 
-RUN apt install npm
+RUN apt install npm -y
 
 COPY server.js .
 
